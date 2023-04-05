@@ -1,6 +1,6 @@
 package csc229.dealership;
 
-public class Audi extends ICECars extends Vehicle{
+public class Audi extends ICECar{
 
     // Constructor
     public Audi() {
