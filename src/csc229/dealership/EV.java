@@ -33,10 +33,11 @@ public abstract class EV extends Vehicle{
       
  @Override
     public String toString() {
-        return "This is a Tesla -> " +
+        return (
         		    super.toString() +
                 "\nSunroof Size: " + sunroofSize +
                 "\nSelf-Driving: " + selfDriving +
                 "\nMiles Per Kilowatt Hour: " + milesPerKilowattHour;
+           )
     }
 }
