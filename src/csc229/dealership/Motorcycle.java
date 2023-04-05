@@ -58,13 +58,15 @@ public abstract class Motorcycle extends Vehicle{
     public void setMilesPerGallon(double milesPerGallon) {
         this.milesPerGallon = milesPerGallon;
     }
-    }
+    
 
     // Getters and setter
 
     @Override
     public String toString() {
-        return ("\nTransmission Type: " + transmissionType +
+        return (
+                super.toString() +
+                "\nTransmission Type: " + transmissionType +
                 "\nOil Capacity: " + oilCapacity +
                 "\nGas Tank Size: " + gasTankSize +
                 "\nMiles Per Gallon: " + milesPerGallon+
