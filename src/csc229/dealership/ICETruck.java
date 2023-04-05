@@ -1,9 +1,9 @@
 package csc229.dealership;
 
-public abstract class Motorcycle extends Vehicle{
+public abstract class ICETruck extends Vehicle{
 
     // Constructor
-  public Motorcycle() {
+  public ICETruck() {
   protected String transmissionType;
   protected double oilCapacity;
   protected double gasTankSize;
@@ -11,7 +11,7 @@ public abstract class Motorcycle extends Vehicle{
   private double truckBedLength;
   private double towingCapacity;
 //constructor
-  public ICECars(String transmissionType, double oilCapacity, double gasTankSize, double milesPerGallon,
+  public ICETruck(String transmissionType, double oilCapacity, double gasTankSize, double milesPerGallon,
                  double truckBedLength, double towingCapacity){
     this.transmissionType = transmissionType;
     this.oilCapacity = oilCapacity;
