@@ -1,6 +1,6 @@
 package csc229.dealership;
 
-public class HarleyDavidson {
+public class HarleyDavidson extends Motorcycle{
 
     // Constructor
     public HarleyDavidson() {
