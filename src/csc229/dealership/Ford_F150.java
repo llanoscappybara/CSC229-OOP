@@ -1,6 +1,6 @@
 package csc229.dealership;
 
-public class Ford_F150 extends ICETruck extends Vehicle{
+public class Ford_F150 extends ICETruck{
     // Constructor
     public Ford_F150() {
         
