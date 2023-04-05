@@ -1,6 +1,6 @@
 package csc229.dealership;
 
-public abstract class ICECars extends Vehicles{
+public abstract class ICECar extends Vehicle{
   protected String transmissionType;
   protected double oilCapacity;
   protected double gasTankSize;
